@@ -1,6 +1,8 @@
 # Friend-Finder
 Friend Finder - A project with iBeacons
-Take a look at my presentation! Download file: Friend finder presentation.pptx
+
+Take a look at my presentation! 
+Download file: Friend finder presentation.pptx
 
 Wanna try? Well that's hard...
 
