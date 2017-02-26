@@ -1,5 +1,6 @@
 # Friend-Finder
 Friend Finder - A project with iBeacons
+Take a look at my presentation! Download file: Friend finder presentation.pptx
 
 Wanna try? Well that's hard...
 
@@ -14,3 +15,4 @@ It was a fun project and I'm uploading some screenshots from it.
 
 THIS IS SUPPOSED TO BE THE URL: http://ben.bradweb.co.uk/
 But it seems lite its down.
+
