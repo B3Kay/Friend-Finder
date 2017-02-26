@@ -1,0 +1,76 @@
+Friend finder Monitor WEB APP!
+    for mobile devices
+
+Bradford University - Design for mobile devices
+
+Benjamin Karlsson
+bjekarls ub: 16015685
+
+Project  -  URL: http://ben.bradweb.co.uk/
+
+About:
+This project is mainly designed for mobile devices and therefore with only 
+mobile in mind.
+
+The project is still under developement.
+
+post_test.php is for testing and sends a post with all the parameters to the 
+web_service.php that reads them and updates the database.
+Index.php is the main website, where generate_people.php makes a sql query to
+the database to get all the people and their position and shows them in 
+a ul list in the browser.
+
+
+
+
+
+PLUG IN & Used sources on the INTERNET!
+
+Material Design Lite (MDL framework)
+ - A framework used to create this website.
+ - Similiar to bootstrap but with a different design, though it lacks a lot of features.
+   Suposed to give a look similiar to Google's Material Design.
+https://getmdl.io/started/
+
+* How i chose data types 
+ -  Longitude
+ -  Latitude
+http://stackoverflow.com/questions/1196415/what-datatype-to-use-when-storing-latitude-and-longitude-data-in-sql-databases
+ -  The rest of the parameters i got from the UoB iBeacons API.
+
+
+Time ago plugin
+http://timeago.yarp.com/
+ - A plugin to make all the timestamps to "Time ago";
+
+
+Modal MDL code:
+https://github.com/oRRs/mdl-jquery-modal-dialog
+ - Couldnt find a good way of creating a Modal from MDL so i found this git.
+   Not in use yet, but it's planed to be used to show a bottom sheet for a
+   google map etc.
+
+About UoB app
+ - About UoB App sends posts with the updated locations of the users.
+   Sends the posted data to the web_service.php which updates the database.
+
+Things to do!
+
+ - Search button
+   Add a search script for the search button to search people
+
+ - Add button
+   To att new friends to follow
+
+ - Each person is listed in the a row and on the right side there is a small
+   menu navigation icon. Clicking it shows to options, profile and find.
+   -    Find - A modal pops upp with google maps api to show the location and
+        Makes it possible to show a track to that position from our position.
+        ------------
+        HALF FIXED!!!!!!!!!!!
+        ------------
+   -    Profile - A modal pops up to show more information about the person.
+        If you want to delete it, etc.
+
+- Nav Bar
+  Going to add a logout and some more functionality to the navbar
